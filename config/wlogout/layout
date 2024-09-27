@@ -1,0 +1,30 @@
+{
+    "label" : "lock",
+    "action" : "$HOME/.config/hypr/scripts/LockScreen.sh",
+    "text" : "Lock",
+    "keybind" : "k"
+}
+{
+    "label" : "reboot",
+    "action": "echo monitor = eDP-1, 1920x1080, 1920x0, 1 > ~/.config/hypr/configs/LaptopDisplay.conf && systemctl reboot",
+    "text" : "Reboot",
+    "keybind" : "r"
+}
+{
+    "label" : "shutdown",
+    "action": "echo monitor = eDP-1, 1920x1080, 1920x0, 1 > ~/.config/hypr/configs/LaptopDisplay.conf && systemctl poweroff",
+    "text" : "Shutdown",
+    "keybind" : "s"
+}
+{
+    "label" : "logout",
+    "action" : "killhypr",
+    "text" : "Logout",
+    "keybind" : "l"
+}
+{
+    "label" : "suspend",
+    "action" : "systemctl suspend",
+    "text" : "Suspend",
+    "keybind" : "d"
+}

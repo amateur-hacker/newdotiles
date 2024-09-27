@@ -1,0 +1,422 @@
+: 1709855790:0;cd .config/fish
+: 1709855791:0;nvim config.fish
+: 1709855861:0;ls
+: 1709855865:0;clear
+: 1709855866:0;ls
+: 1709855872:0;clear
+: 1709855873:0;ls
+: 1709855878:0;cd .config/fish
+: 1709856037:0;ls
+: 1709856038:0;cd
+: 1709856040:0;cd fish
+: 1709856042:0;ls -a
+: 1709856047:0;cd
+: 1709856053:0;cd .config/zsh/zsh-autosuggestions
+: 1709856059:0;ls a
+: 1709856060:0;ls -a
+: 1709856063:0;fuck
+: 1709856122:0;ls
+: 1709856124:0;ll
+: 1709856131:0;clear
+: 1709856147:0;ls
+: 1709856233:0;vdir
+: 1709856234:0;dir
+: 1709856236:0;clear
+: 1709856237:0;dir
+: 1709901963:0;ls -a
+: 1709901965:0;clear
+: 1709901991:0;cd Documents/nextlevelbot-clone
+: 1709901993:0;ls -a
+: 1709902109:0;cd
+: 1709902110:0;clear
+: 1709902114:0;ls -a
+: 1709902127:0;clear
+: 1709902128:0;ls -a
+: 1709902328:0;clear
+: 1709902328:0;ls -a
+: 1709902335:0;clear
+: 1709902352:0;ls -a
+: 1709902353:0;clear
+: 1709902358:0;cd .config/zsh/
+: 1709902359:0;ls -a
+: 1709902366:0;rm .p10k.zsh
+: 1709902425:0;clear
+: 1709902426:0;ls -a
+: 1709902430:0;cd Documents/debounce-throttle
+: 1709902431:0;ls -a
+: 1709902439:0;ls a-
+: 1709902444:0;cd src
+: 1709902445:0;ls -a
+: 1709902448:0;cd pages
+: 1709902448:0;ls
+: 1709902457:0;cd
+: 1709902461:0;cd Documents/web-development/backend
+: 1709902464:0;cd api
+: 1709902466:0;cd axios
+: 1709902480:0;clear
+: 1709902485:0;ls -a
+: 1709902496:0;clear
+: 1709902516:0;nvim .config/zsh/.zshrc
+: 1709902521:0;cd .config/zsh
+: 1709902521:0;ls
+: 1709902527:0;nvim .zshrc
+: 1709902884:0;ls -a
+: 1709902887:0;cd ..
+: 1709902891:0;mv zsh zsh.bak
+: 1709903706:0;ls -a
+: 1709903708:0;cd Documents/web-development/backend
+: 1709903708:0;ls -a
+: 1709903714:0;clear
+: 1709903719:0;cd Documents/web-development/backend
+: 1709903720:0;ls -a
+: 1709903731:0;nvim .zshrc
+: 1709903736:0;rm -rf .zshrc
+: 1709903737:0;cd
+: 1709903739:0;cd .config/zsh
+: 1709903740:0;ls -a
+: 1709903744:0;nvim .p10k.zsh
+: 1709903784:0;nvim .zshrc
+: 1709903915:0;clear
+: 1709903943:0;nvim .config/nvim
+: 1709904287:0;echo -e "\xee\x82\xa0" #> ƒ€
+: 1709904297:0;echo -e "\xee\x82\xa0" #>
+: 1709904401:0;ls -a
+: 1709904415:0;clear
+: 1709904416:0;ls -a
+: 1709904429:0;cd Downloads
+: 1709904429:0;ls -a
+: 1709904432:0;upd
+: 1709904459:0;autoload  --help
+: 1709904467:0;autoload -h
+: 1709904470:0;autoload
+: 1709904576:0;ls -a
+: 1709904582:0;cd Downloads
+: 1709904842:0;bt -d
+: 1709904845:0;fish
+: 1709905055:0;cd .config/zsh
+: 1709905055:0;ls -a
+: 1709905065:0;fish
+: 1709905199:0;ls
+: 1709905200:0;fish
+: 1709905268:0;ls -a
+: 1709905271:0;cd Documents
+: 1709905272:0;ls -a
+: 1709905283:0;clear
+: 1709905287:0;cd
+: 1709905360:0;cd .config/fish
+: 1709905361:0;ls
+: 1709905364:0;nvim config.fish
+: 1709905447:0;sfc
+: 1709905462:0;sfd
+: 1709905485:0;fzf
+: 1709905491:0;fzf --help
+: 1709905510:0;fzf -xx
+: 1709905513:0;fzf -x
+: 1709905523:0;fzf
+: 1709905629:0;ls -a
+: 1709906625:0;nvim .zshenv
+: 1709906787:0;yes
+: 1709906830:0;yes | head -10 | awk '{print NR, NR % 2 == 0? "even" : "odd" }\
+'
+: 1709906836:0;i
+: 1709906845:0;yes | head -10 | awk '{print NR, NR % 2 == 0? "even" : "odd" }\
+' | fzf
+: 1709907056:0;fzf --height 40% --layout=reverse --border
+: 1709907072:0;ls -a
+: 1709907214:0;fish
+: 1709907504:0;fzf --help
+: 1709907526:0;nvim .zshenv
+: 1709907554:0;heightt
+: 1709907566:0;nvim .zsh_history
+: 1709907596:0;clear
+: 1709907596:0;ls
+: 1709907673:0;sfd
+: 1709907687:0;sff
+: 1709907692:0;ls
+: 1709907697:0;sff
+: 1709907748:0;sfd
+: 1709907752:0;sfc
+: 1709907783:0;find . -maxdepth 1 -type d | sed 's/.\///'
+: 1709907819:0;sfd
+: 1709907831:0;cd .config/fish
+: 1709907836:0;nvim config.fish
+: 1709907884:0;ls -a
+: 1709907892:0;sff
+: 1709907903:0;eza -p
+: 1709907932:0;eza
+: 1709907949:0;ls -a | grep -v / | fzf
+: 1709907964:0;command ls -a | grep -v / | fzf
+: 1709907982:0;command ls -a -p | grep -v / | fzf
+: 1709908022:0;sff
+: 1709908036:0;command ls -a | grep -v / | fzf | xargs -r -I % $EDITOR %
+: 1709908044:0;command ls -a | grep -v / | fzf
+: 1709908870:0;command ls -a | grep -v / | fzf --info=inline
+: 1709908882:0;fish
+: 1709908899:0;sff
+: 1709908969:0;ls
+: 1709908978:0;sff
+: 1709908991:0;lf
+: 1709908994:0;sff
+: 1709909127:0;cat -e
+: 1709909130:0;cat
+: 1709909150:0;cat --help
+: 1709909154:0;cat -i
+: 1709909159:0;cat
+: 1709909333:0;sfc_sff_sfd
+: 1709909354:0;ls
+: 1709909384:0;cat
+: 1709909794:0;bindkey --help
+: 1709909799:0;bindkey 
+: 1709909811:0;bindkey -h
+: 1709909834:0;searchfzf
+: 1709909922:0;
+: 1709909979:0;searchfzf 
+: 1709910196:0;cd
+: 1709910213:0;searchfzf 
+: 1709910360:0;sfd
+: 1709910366:0;ls
+: 1709910367:0;cd ..
+: 1709910368:0;clear
+: 1709910369:0;sfd
+: 1709910745:0;clear
+: 1709910746:0;c
+: 1709910747:0;cd
+: 1709910748:0;cler
+: 1709910749:0;clear
+: 1709910750:0;sfd
+: 1709910763:0;cd
+: 1709910764:0;clear
+: 1709912324:0;searchfzf 
+: 1709912365:0;find ~/.config/* ~/.local/bin/* -type f 
+: 1709912547:0;git clone https://github.com/zsh-users/zsh-history-substring-search.git ~/.config/zsh/
+: 1709912570:0;git clone https://github.com/zsh-users/zsh-history-substring-search.git ~/.config/zsh/zsh-history-substring-search
+: 1709912679:0;ls
+: 1709912681:0;clear
+: 1709912682:0;ls -a
+: 1709912684:0;cd .config/fish
+: 1709912684:0;ls -a
+: 1709912687:0;clear
+: 1709912689:0;cd
+: 1709912690:0;clear
+: 1709912754:0;ls -a
+: 1709912756:0;clear
+: 1709912793:0;cd
+: 1709912794:0;clear
+: 1709912797:0;cd Documents
+: 1709912797:0;ls -a
+: 1709912912:0;nvim .config/starship.toml
+: 1709912917:0;ls -a
+: 1709912919:0;cd Documents
+: 1709912920:0;ls -a
+: 1709912940:0;cd Documents/web-development/backend
+: 1709912941:0;ls -a
+: 1709912945:0;clear
+: 1709912946:0;ls -a
+: 1709912953:0;cd api
+: 1709912954:0;ls
+: 1709912955:0;cd
+: 1709912961:0;cd Documents/web-development/ezmony
+: 1709912961:0;ls
+: 1709912973:0;cd ezmony-frontend
+: 1709912974:0;ls -a
+: 1709912983:0;searchfzf 
+: 1709912988:0;ls -a
+: 1709913018:0;cd ezmony-frontend
+: 1709913033:0;ls
+: 1709913087:0;cd Videos
+: 1709913088:0;ls
+: 1709913139:0;clear
+: 1709913156:0;ls -a
+: 1709913208:0;searchfzf 
+: 1709913452:0;cd Documents/web-development/ezmony
+: 1709913453:0;ls
+: 1709913456:0;cd
+: 1709913457:0;clear
+: 1709913461:0;cd Documents/web-development/ezmony
+: 1709913462:0;ls -a
+: 1709913464:0;clear
+: 1709913483:0;cd Documents/web-development/ezmony
+: 1709913495:0;ls
+: 1709913509:0;cd Documents/web-development/ezmony
+: 1709913510:0;ls
+: 1709913528:0;cd Documents/web-development/ezmony
+: 1709913529:0;ls
+: 1709913539:0;cd Documents/web-development/ezmony
+: 1709913540:0;ls -a
+: 1709913547:0;cd Documents/web-development/ezmony
+: 1709913568:0;searchfzf 
+: 1709913589:0;clear
+: 1709913590:0;ls -a
+: 1709913625:0;cd Documents/web-development/ezmony
+: 1709913626:0;ls -a
+: 1709913648:0;searchfzf 
+: 1709913671:0;ls -a
+: 1709913674:0;cd Documents/web-development/ezmony
+: 1709913675:0;ls -a
+: 1709913678:0;cd
+: 1709913679:0;clear
+: 1709913683:0;ls -a
+: 1709913685:0;clear
+: 1709913708:0;ls -a
+: 1709913722:0;rm text.hs
+: 1709913723:0;ls -
+: 1709913725:0;ls -a
+: 1709913727:0;clear
+: 1709913802:0;ls -a
+: 1709913813:0;cd Documents/web-development/ezmony
+: 1709913813:0;ls
+: 1709913887:0;searchfzf 
+: 1709913912:0;fish
+: 1709913917:0;clear
+: 1709913918:0;ls -a
+: 1709913919:0;cd Documents/web-development/ezmony
+: 1709913920:0;ls -a
+: 1709913958:0;clear
+: 1709913989:0;cd Documents/web-development/ezmony
+: 1709913990:0;ls -a
+: 1709913994:0;clear
+: 1709913994:0;cd
+: 1709913995:0;clear
+: 1709913996:0;ls -a
+: 1709913999:0;cd Documents/web-development/ezmony
+: 1709914000:0;ls -a
+: 1709914001:0;cd
+: 1709914001:0;clear
+: 1709914021:0;ls -a
+: 1709914042:0;clear
+: 1709914043:0;ls
+: 1709914050:0;ls -a
+: 1709914051:0;cd Documents/web-development/ezmony
+: 1709914052:0;ls -a
+: 1709914117:0;cd Documents/web-development/ezmony
+: 1709914117:0;ls -a
+: 1709914136:0;searchfzf 
+: 1709914190:0;ls -a
+: 1709914198:0;clear
+: 1709914272:0;cd Documents/web-development/ezmony
+: 1709914346:0;ls -a
+: 1709914348:0;cd Documents/web-development/ezmony
+: 1709914349:0;ls -a
+: 1709914350:0;cd
+: 1709914351:0;clear
+: 1709914381:0;cd Documents/web-development/ezmony
+: 1709914383:0;ls -a
+: 1709914400:0;searchfzf 
+: 1709914415:0;cd Documents/web-development/ezmony
+: 1709914416:0;ls -a
+: 1709914421:0;clear
+: 1709914481:0;ls -a
+: 1709914483:0;cd Documents/web-development/ezmony
+: 1709914490:0;ls -a
+: 1709914522:0;searchfzf 
+: 1709914536:0;cd Documents/web-development/ezmony
+: 1709914538:0;ls -a
+: 1709914540:0;clear
+: 1709914541:0;ls -a
+: 1709914546:0;cd ezmony-frontend
+: 1709914547:0;ls -a
+: 1709914577:0;cd ezmony-frontend
+: 1709914601:0;ls -a
+: 1709914820:0;cd ezmony-frontend
+: 1709914822:0;ls -a
+: 1709914829:0;cd ezmony-frontend
+: 1709914835:0;ls -a
+: 1709914866:0;cd ezmony-frontend
+: 1709914869:0;ls -a
+: 1709915152:0;searchfzf 
+: 1709915173:0;ls -a
+: 1709915197:0;cd ezmony-frontend
+: 1709915198:0;ls -a
+: 1709915258:0;clear
+: 1709915302:0;ls -a
+: 1709915313:0;cd Documents/web-development/ezmony
+: 1709915314:0;ls -a
+: 1709915370:0;cd Documents/web-development/ezmony
+: 1709915371:0;ls -a
+: 1709915417:0;searchfzf 
+: 1709915599:0;cd Documents/
+: 1709915601:0;ls -a
+: 1709915605:0;cd automate-trading
+: 1709915605:0;ls
+: 1709915620:0;cd automate-trading
+: 1709915621:0;ls -a
+: 1709915709:0;tofish
+: 1709917095:0;cd
+: 1709917096:0;clear
+: 1710375737:0;nvim .config/fish/config.fish
+: 1710375740:0;ls -a
+: 1710375745:0;tmux
+: 1716515559:0;clear
+: 1716515559:0;ls
+: 1716515569:0;fish
+: 1719272040:0;ls
+: 1719272049:0;bash
+: 1723046856:0;ls 
+: 1723046857:0;nvim
+: 1723046863:0;nvim test.sh
+: 1723047005:0;fish --help
+: 1723047015:0;fish -N
+: 1723393301:0;fish
+: 1723398913:0;clear
+: 1723398914:0;ls -a
+: 1723398917:0;cd Documents
+: 1723398918:0;ls -a
+: 1723398920:0;cd ..
+: 1723398920:0;ls -a
+: 1723398922:0;nvim .zshenv
+: 1723398948:0;ls -a
+: 1723398950:0;cd .config/zsh
+: 1723398950:0;ls
+: 1723398952:0;nvim .zshrc
+: 1723398980:0;sfd
+: 1723399136:0;ls -a
+: 1723399893:0;clear
+: 1723399893:0;ls -a
+: 1723399894:0;clear
+: 1723399896:0;cd Documents
+: 1723399897:0;ls -a
+: 1723399900:0;clear
+: 1723399909:0;cd
+: 1723399911:0;clear
+: 1723399914:0;nvim .config/fish/config.fish
+: 1723399918:0;ls -a
+: 1723399931:0;clear
+: 1723399932:0;ls -a
+: 1723399934:0;ls
+: 1723399951:0;cd Documents/web-development/my-stuffs/naivaidyam/backend
+: 1723399953:0;ls -a
+: 1723399998:0;cd
+: 1723400001:0;cd .config/zsh
+: 1723400001:0;ls
+: 1723400005:0;nvim .p10k.zsh
+: 1723400221:0;ls -a
+: 1723400223:0;cd Documents/web-development/my-stuffs/naivaidyam/backend
+: 1723400227:0;ls -a
+: 1723400230:0;pwd
+: 1723400233:0;clear
+: 1723400233:0;cd
+: 1723400234:0;clear
+: 1723400266:0;p10k configure
+: 1723400272:0;p10k --help
+: 1723400278:0;p10k configure
+: 1723400339:0;clear
+: 1723400340:0;ls -a
+: 1723400342:0;cd Documents/web-development/my-stuffs/naivaidyam/backend
+: 1723400343:0;ls -a
+: 1723400350:0;clear
+: 1723400351:0;ls -a
+: 1723400354:0;cd
+: 1723400381:0;clear
+: 1723400387:0;z /home/amateur_hacker/Documents/Hyprland-Dots
+: 1723400394:0;cd
+: 1723400401:0;cd Documents/web-development/my-stuffs/naivaidyam/backend
+: 1723400403:0;cd
+: 1723400409:0;ls -a
+: 1723400470:0;nvim .config/fish/config.fish
+: 1723400474:0;cd Documents/web-development/my-stuffs/naivaidyam/backend
+: 1723400475:0;ls -a
+: 1723400480:0;cd
+: 1723400480:0;clear
+: 1723400532:0;fish
+: 1725568920:0;alias v
+: 1725568923:0;fish

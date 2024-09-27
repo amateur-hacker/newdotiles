@@ -1,0 +1,138 @@
+#!/usr/bin/env bash
+
+# The menu of Music playlists with certain number of choices
+
+outerMenu() {
+  printf "Quit\n"
+  printf "1. Shreya Karmakar Playlist 🎶\n"
+  printf "2. Neffex Playlist 🎶\n"
+  printf "3. Lofi Hits 🎶"
+}
+userChoice=$(outerMenu | fzf --prompt="Select your choice: " --header="automation-music" --header-first --border=rounded --margin=5% --color=dark --height=100% --reverse --info=hidden | cut -d. -f1)
+
+shreyaMenu() {
+  printf "Quit\n"
+  printf "1. Toggle Play-Pause\n"
+  printf "2. Play a playlist\n"
+  printf "3. Search and play"
+}
+
+neffexMenu() {
+  printf "Quit\n"
+  printf "1. Toggle Play-Pause\n"
+  printf "2. Play a playlist\n"
+  printf "3. Search and play"
+}
+
+lofiHitsMenu() {
+  printf "Quit\n"
+  printf "1. Toggle Play-Pause\n"
+  printf "2. Play a playlist\n"
+  printf "3. Search and play"
+}
+
+playlistName=$(outerMenu | grep "${userChoice}" | cut -d' ' -f2-)
+
+case $userChoice in
+"Quit")
+  pkill mpv
+  exit
+  ;;
+
+1)
+  shreyaChoice=$(shreyaMenu | fzf --prompt="Select your choice: " --header="automation-music" --header-first --border=rounded --margin=5% --color=dark --height=100% --reverse --info=hidden | cut -d. -f1)
+  case $shreyaChoice in
+  "Quit")
+    pkill mpv
+    exit
+    ;;
+  1)
+    playerctl play-pause --player mpv
+    ;;
+  2)
+    pkill mpv
+    dunstify -t 5000 "${playlistName} Starting ..."
+    mpv --playlist="$HOME/music/my-music-sc-playlist/mp3s/shreya-karmakar-playlist/"
+    dunstify -t 5000 "${playlistName} Finished ...."
+    ;;
+  3)
+    shreyaDir="$HOME/music/my-music-sc-playlist/mp3s/shreya-karmakar-playlist/"
+    var1=$(/usr/bin/ls "${shreyaDir}" | fzf --prompt="Select your choice: " --header="automation-music" --header-first --border=rounded --margin=5% --color=dark --height=100% --reverse --info=hidden >>"/tmp/tmp-url")
+    var2=$(tail -n 1 /tmp/tmp-url)
+    # var3=$(tail -n 1 /tmp/tmp-url | cut -d ' ' -f1-16)
+    currentSong="${shreyaDir}${var2}"
+    if [[ $currentSong == "$shreyaDir" ]]; then
+      exit
+    else
+      dunstify -t 5000 "Song: ${var2} Starting ..."
+      mpv "$currentSong"
+      dunstify -t 5000 "Song: ${var2} Finished ..."
+    fi
+    ;;
+  esac
+  ;;
+2)
+  neffexChoice=$(neffexMenu | fzf --prompt="Select your choice: " --header="automation-music" --header-first --border=rounded --margin=5% --color=dark --height=100% --reverse --info=hidden | cut -d. -f1)
+  case $neffexChoice in
+  "Quit")
+    pkill mpv
+    exit
+    ;;
+  1)
+    playerctl play-pause --player mpv
+    ;;
+  2)
+    pkill mpv
+    dunstify -t 5000 "${playlistName} Starting ..."
+    mpv --playlist="$HOME/music/my-music-sc-playlist/mp3s/neffex-playlist/"
+    dunstify -t 5000 "${playlistName} Finished ...."
+    ;;
+  3)
+    neffexDir="$HOME/music/my-music-sc-playlist/mp3s/neffex-playlist/"
+    var1=$(/usr/bin/ls "${neffexDir}" | fzf --prompt="Select your choice: " --header="automation-music" --header-first --border=rounded --margin=5% --color=dark --height=100% --reverse --info=hidden >>"/tmp/tmp-url")
+    var2=$(tail -n 1 /tmp/tmp-url)
+    currentSong="${neffexDir}${var2}"
+    if [[ $currentSong == "$neffexDir" ]]; then
+      exit
+    else
+      dunstify -t 5000 "Song: ${var2} Starting ..."
+      mpv "$currentSong"
+      dunstify -t 5000 "Song: ${var2} Finished ...."
+    fi
+    ;;
+  esac
+  ;;
+
+3)
+  lofiChoice=$(lofiHitsMenu | fzf --prompt="Select your choice: " --header="automation-music" --header-first --border=rounded --margin=5% --color=dark --height=100% --reverse --info=hidden | cut -d. -f1)
+  case $lofiChoice in
+  "Quit")
+    pkill mpv
+    exit
+    ;;
+  1)
+    playerctl play-pause --player mpv
+    ;;
+  2)
+    pkill mpv
+    dunstify -t 5000 "${playlistName} Starting ..."
+    mpv --playlist="$HOME/music/my-music-sc-playlist/mp3s/lofi-hits/"
+    dunstify -t 5000 "${playlistName} Finished ...."
+    ;;
+  3)
+    lofiDir="$HOME/music/my-music-sc-playlist/mp3s/lofi-hits/"
+    var1=$(/usr/bin/ls "${lofiDir}" | fzf --prompt="Select your choice: " --header="automation-music" --header-first --border=rounded --margin=5% --color=dark --height=100% --reverse --info=hidden >>"/tmp/tmp-url")
+    echo "$var1"
+    var2=$(tail -n 1 /tmp/tmp-url)
+    currentSong="${lofiDir}${var2}"
+    if [[ $currentSong == "$lofiDir" ]]; then
+      exit
+    else
+      dunstify -t 5000 "Song: ${var2} Starting ..."
+      mpv "$currentSong"
+      dunstify -t 5000 "Song: ${var2} Finished ...."
+    fi
+    ;;
+  esac
+  ;;
+esac

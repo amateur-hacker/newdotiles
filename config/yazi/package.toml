@@ -1,0 +1,5 @@
+[plugin]
+deps = [{ use = "yazi-rs/plugins:full-border", rev = "9a1129c" }, { use = "yazi-rs/plugins:chmod", rev = "9a1129c" }, { use = "yazi-rs/plugins:max-preview", rev = "9a1129c" }, { use = "Reledia/glow", rev = "4e016fa" }, { use = "orhnk/system-clipboard", rev = "7775a80" }, { use = "Ape/mediainfo", rev = "c69314e" }]
+
+[flavor]
+deps = []
