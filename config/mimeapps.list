@@ -1,0 +1,35 @@
+[Default Applications]
+image/png=imv.desktop;
+image/jpeg=imv.desktop;
+application/pdf=zathura-usercreated-1.desktop;
+text/plain=nvim.desktop;
+text/javascript=nvim.desktop;
+application/x-tiled-tsx=nvim.desktop
+x-scheme-handler/postman=Postman.desktop
+x-scheme-handler/ime=org.telegram.desktop._5ce6ab421169ec3a8d595300755f6868.desktop
+x-scheme-handler/http=zen-alpha.desktop
+x-scheme-handler/https=zen-alpha.desktop
+x-scheme-handler/chrome=zen-alpha.desktop
+text/html=zen-alpha.desktop
+application/x-extension-htm=zen-alpha.desktop
+application/x-extension-html=zen-alpha.desktop
+application/x-extension-shtml=zen-alpha.desktop
+application/xhtml+xml=zen-alpha.desktop
+application/x-extension-xhtml=zen-alpha.desktop
+application/x-extension-xht=zen-alpha.desktop
+x-scheme-handler/tonsite=org.telegram.desktop._5ce6ab421169ec3a8d595300755f6868.desktop
+
+[Added Associations]
+x-scheme-handler/http=zen-browser.desktop;zen-alpha.desktop;
+x-scheme-handler/https=zen-browser.desktop;zen-alpha.desktop;
+x-scheme-handler/chrome=zen-browser.desktop;zen-alpha.desktop;
+text/html=zen-browser.desktop;zen-alpha.desktop;
+application/x-extension-htm=zen-browser.desktop;zen-alpha.desktop;
+application/x-extension-html=zen-browser.desktop;zen-alpha.desktop;
+application/x-extension-shtml=zen-browser.desktop;zen-alpha.desktop;
+application/xhtml+xml=zen-browser.desktop;zen-alpha.desktop;
+application/x-extension-xhtml=zen-browser.desktop;zen-alpha.desktop;
+application/x-extension-xht=zen-browser.desktop;zen-alpha.desktop;
+application/zip=thunar.desktop;
+text/markdown=zen-usercreated-1.desktop;
+x-scheme-handler/tonsite=org.telegram.desktop._5ce6ab421169ec3a8d595300755f6868.desktop;
